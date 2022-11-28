@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('./drums-background.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 18rem;
+}
+
+.key {
+  border: 0.1rem solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.8rem;
+  min-height: 4rem;
+  min-width: 3rem;
+  color: white;
+  font-size: 1.4rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 10px 3px mintcream;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.sound {
+  font-family: 'Nerko One', cursive;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgb(221, 255, 0);
+  padding-top: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.1rem;
+}
+
+.instrumental {
+  border: 3px solid rgba(216, 183, 22, 0.614);
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
+
+.playing {
+  transform: scale(1.5);
+}
+
+.reggae {
+  position: absolute;
+  bottom: 25rem;
+  left: 5rem;
+  color: deeppink;
+  font-weight: 600;
+}
+
+.reggae span {
+  color: deeppink;
+}
